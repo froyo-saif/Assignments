@@ -1,0 +1,38 @@
+package org.animals;
+
+public class Lion {
+
+
+package org.animals;
+	
+
+
+package org.animals;
+
+
+package zoo;
+import org.animals.*;
+
+public class VandalurZoo{
+	public static void main(String [] args){
+
+	Lion l1 = new Lion("Golden Brown", 200 , 10);
+	Tiger t1 = new Tiger("Orange with Stripes" , 150 , 5);
+	Giraffe g1 = new Giraffe("Yellow",90,12);
+
+	System.out.println("lion chara:");
+	l1.sound();
+	System.out.println("Lion is Vegetarian ?"+l1.isveg());
+
+	System.out.println("tiger chara:");
+	t1.sound();
+	System.out.println("Tiger is Vegetarian ?"+t1.isveg());
+
+	System.out.println("Giraffe chara:");
+	g1.sound();
+	System.out.println("Giraffe is Vegetarian ?"+g1.isveg());
+
+	}
+
+}
+
