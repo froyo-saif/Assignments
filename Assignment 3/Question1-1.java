@@ -1,4 +1,3 @@
-package day4_assignment;
 
 @FunctionalInterface
 interface CheckNumber{
